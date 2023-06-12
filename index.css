@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .nav-bar{
+    @apply w-full bg-neutral-600 relative
+   }
+
+
+}
+
+#checked:checked~ul{
+   left:0;
+}
+.vision-bg{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.mac{
+   
+   background-image:url('./images/mac-book.webp');
+   background-repeat: no-repeat;
+   background-size:999px auto ; 
+   background-position:50% 95%;
+}
+   
+
+
+
+
+@media screen and (min-width:768px){
+   .mac{
+       background-image: url(./images/mac-book.webp);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+   }
+}
