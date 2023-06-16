@@ -627,20 +627,24 @@ video {
   border-radius: 9999px;
 }
 
-.bg-\[url\] {
-  background-color: url;
+.bg-\[url\(\'\/images\/689xfoundation\.webp\'\)\] {
+  background-image: url('/images/689xfoundation.webp');
 }
 
-.bg-\[l\] {
-  background-color: l;
+.bg-\[url\(\'\/images\/689xtripple\.webp\'\)\] {
+  background-image: url('/images/689xtripple.webp');
 }
 
-.bg-\[length\] {
-  background-color: length;
+.bg-\[url\(\'\/images\/broken-woman\.webp\'\)\] {
+  background-image: url('/images/broken-woman.webp');
 }
 
-.bg-\[\] {
-  background-color: ;
+.bg-\[url\(\'\/images\/cartoon\.webp\'\)\] {
+  background-image: url('/images/cartoon.webp');
+}
+
+.bg-\[url\(\'\/images\/celebrate\.webp\'\)\] {
+  background-image: url('/images/celebrate.webp');
 }
 
 .bg-\[url\(\'\/images\/gosted\.webp\'\)\] {
@@ -651,80 +655,24 @@ video {
   background-image: url('/images/jiddena.webp');
 }
 
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\/images\/la\'\)\] {
-  background-image: url('/images/la');
-}
-
-.bg-\[url\(\'\/images\/laughter\'\)\] {
-  background-image: url('/images/laughter');
+.bg-\[url\(\'\/images\/large-fish\.webp\'\)\] {
+  background-image: url('/images/large-fish.webp');
 }
 
 .bg-\[url\(\'\/images\/laughter\.webp\'\)\] {
   background-image: url('/images/laughter.webp');
 }
 
-.bg-\[url\(\'\/images\/cele\'\)\] {
-  background-image: url('/images/cele');
-}
-
-.bg-\[url\(\'\/images\/celebrate\'\)\] {
-  background-image: url('/images/celebrate');
-}
-
-.bg-\[url\(\'\/images\/celebrate\.webp\'\)\] {
-  background-image: url('/images/celebrate.webp');
-}
-
-.bg-\[url\(\'\/images\/cartoo\.webp\'\)\] {
-  background-image: url('/images/cartoo.webp');
-}
-
-.bg-\[url\(\'\/images\/cartoon\.webp\'\)\] {
-  background-image: url('/images/cartoon.webp');
-}
-
-.bg-\[url\(\'\/images\/large\.webp\'\)\] {
-  background-image: url('/images/large.webp');
-}
-
-.bg-\[url\(\'\/images\/large-fish\.webp\'\)\] {
-  background-image: url('/images/large-fish.webp');
-}
-
-.bg-\[url\(\'\/images\/689xtripple\.webp\'\)\] {
-  background-image: url('/images/689xtripple.webp');
-}
-
-.bg-\[url\(\'\/images\/689xfoundation\.webp\'\)\] {
-  background-image: url('/images/689xfoundation.webp');
-}
-
-.bg-\[url\(\'\/images\/broken-woman\.webp\'\)\] {
-  background-image: url('/images/broken-woman.webp');
+.bg-\[length\:90\%\] {
+  background-size: 90%;
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-\[length\:90\] {
-  background-size: 90;
-}
-
-.bg-\[length\:90\%\] {
-  background-size: 90%;
-}
-
 .bg-\[center_center\] {
   background-position: center center;
-}
-
-.bg-\[center\] {
-  background-position: center;
 }
 
 .bg-no-repeat {
@@ -846,7 +794,7 @@ video {
 .vision-bg{
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 50% 25%;
 }
 
 /* the swiped content */
@@ -1035,6 +983,10 @@ video {
 
   .xl\:mb-2 {
     margin-bottom: 0.5rem;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .xl\:block {
