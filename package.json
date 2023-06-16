@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"tailwindcss -i index.css -o css/style.css --watch"
+    "build": "tailwindcss -i in-css/index.css -o css/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "swiper": "^9.4.1"
   }
 }
